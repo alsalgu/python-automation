@@ -7,7 +7,7 @@ import re
 password = input('Enter Password you wanna check: ')
 # Requirements for Password, 8 characters min, one digit, one symbol, one cap
 passRegex = re.compile(r'''(
-(\w{8,}\d*[!@#$%^&*]*[A-Z]*)
+((?=.*[\d])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$])[\w\d!@#$]{8,}$)
 )''', re.VERBOSE)
 # Passes input variable into search all function
 result = passRegex.findall(password)
