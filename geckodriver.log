@@ -1,0 +1,15 @@
+1524719382340	geckodriver	INFO	geckodriver 0.18.0
+1524719382348	geckodriver	INFO	Listening on 127.0.0.1:37517
+1524719383450	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1524719384444	Marionette	INFO	Enabled via --marionette
+1524719387200	Marionette	INFO	Listening on port 42479
+1524719387272	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1524719475325	geckodriver	INFO	geckodriver 0.18.0
+1524719475331	geckodriver	INFO	Listening on 127.0.0.1:58349
+1524719476438	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1524719477352	Marionette	INFO	Enabled via --marionette
+1524719479954	Marionette	INFO	Listening on port 45217
+1524719480052	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
